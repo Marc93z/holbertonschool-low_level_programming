@@ -4,11 +4,11 @@ int main(void)
 
 {
 
-printf("char  :%d byte\",sizeof(char));
-printf("int  :%d byte \",sizeof(int));
-printf("long int  :%d byte\",sizeof(long int));
-printf("loong long int  :%d byte\",sizeof(long long int));
-printf("float  :%d byte\",sizeof(float));
+printf("char  :%d byte\n",sizeof(char));
+printf("int  :%d byte \n",sizeof(int));
+printf("long int  :%d byte\n",sizeof(long int));
+printf("loong long int  :%d byte\n",sizeof(long long int));
+printf("float  :%d byte\n",sizeof(float));
 return(0);
 
 }
