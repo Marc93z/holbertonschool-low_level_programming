@@ -1,8 +1,13 @@
 #include <stdio.h>
+/**
+ * main - show characters 
+ * Return: succes
+ */ 
 
-
-int main (void)
+int main(void)
 {
-   puts("Programming is like building a multilingual puzzl")
-   return 0;
+
+    puts("\"Programming is like building a multilingual puzzlei");
+
+    return (0);
 }   	   
