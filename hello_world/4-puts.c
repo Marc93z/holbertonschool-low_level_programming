@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main - show characters 
+ * main - show characters
  * Return: succes
- */ 
+ */
 
 int main(void)
 {
 
-    puts("\"Programming is like building a multilingual puzzlei");
+  puts("\"Programming is like building a multilingual puzzlei");
 
-    return (0);
-}   	   
+  return (0);
+}
