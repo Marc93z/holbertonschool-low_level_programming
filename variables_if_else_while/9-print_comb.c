@@ -1,20 +1,23 @@
 #include <stdio.h>
+/**
+ * main - print all combinaisons of single digit numbers
+ *
+ * Return: always 0 success
+ */
+int main(void)
+{
+	int i;
 
-int main(void) {
-    int i = 0;  // Initialiser la variable i à 0
+	for (i = 0 ; i < 10 ; i++)
+	{
+		putchar('0' + i);
+		if (i == 9)
+			continue;
 
-    // Boucler de 0 à 9
-    do {
-        putchar(i + '0');  // Afficher le chiffre actuel en convertissant i en son équivalent caractère
-        if (i < 9) {
-            putchar(',');  // Afficher une virgule si i est inférieur à 9
-            putchar(' ');  // Afficher un espace après la virgule
-        }
-        i++;  // Incrémenter i
-    } while (i <= 9);  // Continuer la boucle tant que i est inférieur ou égal à 9
-
-    putchar('\n');  // Afficher un saut de ligne à la fin
-    return 0;
+		putchar(',');
+		putchar(' ');
+	}
+	putchar('\n');
+	return (0);
 }
-
  
