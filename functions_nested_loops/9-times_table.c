@@ -1,6 +1,6 @@
 #include "main.h"
 
-int void times_table(int size)
+int void times_table(void)
 
 {
 	int num, mult, prod;
@@ -15,7 +15,7 @@ int void times_table(int size)
 			_putchar(',');
 			_putchar(' ');
 
-"			prod = num * mult;
+			prod = num * mult;
 
 			if (prod <= 9)
 			{
