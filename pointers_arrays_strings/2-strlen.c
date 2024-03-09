@@ -5,18 +5,17 @@
  * _strlen - string length
  * @s: parameter
  *
- * Return: lenght
+ * Return: _strlen
  */
 
 
 int _strlen(char *s) {
-    int length = 0;
+    int _strlen = 0;
 	int i;
     // Iterate over the string until the null terminator is encountered
     for (i = 0; s[i] != '\0'; i++) {
 
-        length++;
+        _strlen++;
 }
-return length;
+return _strlen;
 }
-
