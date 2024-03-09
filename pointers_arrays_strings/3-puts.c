@@ -1,8 +1,6 @@
 #include <stdio.h>
 
 void _puts(char *str) {
-
-_puts(str);
-return 0;
-} 
-
+    for (int i = 0; str[i] != '\0'; i++) {
+putchar(str[i]);
+    }
