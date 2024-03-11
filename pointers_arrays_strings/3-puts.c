@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /**
  * _puts - Write a function that prints a string, followed by a new line, to
  * stdout.
@@ -13,7 +14,7 @@ void _puts(char *str)
 
 	for (index = 0; str[index] != '\0'; index++)
 	{
-		putchar(str[index]);
+		_putchar(str[index]);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
