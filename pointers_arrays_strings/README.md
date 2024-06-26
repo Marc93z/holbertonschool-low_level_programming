@@ -1,0 +1,1 @@
+Les tableaux en C sont une sorte de structure de données qui peut stocker une collection séquentielle de taille fixe d'éléments du même type de données . Les tableaux sont utilisés pour stocker une collection de données, mais il est souvent plus utile de considérer un tableau comme une collection de variables du même type.
