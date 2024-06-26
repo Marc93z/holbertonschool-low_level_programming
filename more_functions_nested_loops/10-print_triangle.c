@@ -1,31 +1,26 @@
 #include "main.h"
+
 /**
- * print_triangle - print traingle
- * @size: lenght parameter
- *
- * Return: triangle
+ * print_triangle - pyramid of # print to the screen given the input size
+ * @size: size of the pyramid.
+ * Return: void.
  */
 void print_triangle(int size)
-
 {
-        int i, a;
+	int i, j;
 
-        if(size <= 0)
-        {
-                _putchar('\n');
-        }
+	if (size <= 0)
+		_putchar('\n');
 
-        for (i = 0 ; i < size ; i++)
-        {
-                for (a = i ; a < size ; a++)
-                        {
-                                _putchar(' ');
-                        }
-                for (a = i ; a <= i; a++)
-                        {
-                                _putchar('#');
-                        }
-                }
-                _putchar('\n');
+	for (i = 0; i < size; ++i)
+	{
+		for (j = 0; j < size; ++j)
+		{
+			if (j >= (size - (i + 1)))
+				_putchar('#');
+			else
+				_putchar(' ');
+		}
+		_putchar('\n');
+	}
 }
-
