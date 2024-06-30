@@ -1,3 +1,3 @@
-Une fonction en C est un bloc de code organisé réutilisable qui effectue une seule action associée. Chaque programme C a au moins une fonction, qui est main() , et tous les programmes les plus triviaux peuvent définir des fonctions supplémentaires.
+A function declaration tells the compiler about a function's name, return type, and parameters. A function definition provides the actual body of the function.
 
-Lorsque l’algorithme d’un certain problème implique une logique longue et complexe, il est divisé en blocs plus petits, indépendants et réutilisables. Ces petits blocs de code sont connus sous différents noms dans différents langages de programmation tels qu'un module , un sous-programme , une fonction ou une méthode .
+The C standard library provides numerous built-in functions that your program can call. For example, strcat() to concatenate two strings, memcpy() to copy one memory location to another location, and many more functions.
